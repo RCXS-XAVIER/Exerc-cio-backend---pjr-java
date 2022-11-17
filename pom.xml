@@ -1,0 +1,62 @@
+<? xmlversion="1.0"encoding="UTF-8"?>
+<projectxmlns="http://maven.apache.org/POM/4.0.0"xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<pai>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<versão>2.7.5</version>
+		<parentativePath/><!--lookup pai do repositório -- >
+	</pai>
+	<groupId>org.senai</groupId>
+	<artifactId>prj-java</artifactId>
+	<versão>0.0.1-SNAPSHOT</version>
+	<nome>prj-java</nome>
+	<descrição>Projeto do curso Desenvolvedor Java do SENAI</descrição>
+	<Propriedades>
+		<java.version>1.8</java.version>
+	</Propriedades>
+	<Dependências>
+		<dependência>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependência>
+
+		<dependência>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<escopo>tempo de execução</escopo>
+			<opcional>verdadeiro</opcional>
+		</dependência>
+		<dependência>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<> de escopo< de Teste/Escopo>
+		</dependência>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+		<dependência>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependência>
+		
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependência>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<versão>42.5.0</version>
+		</dependência>
+
+
+	</Dependências>
+
+	<construir>
+		<plugins>
+			<.plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</.plugin>
+		</plugins>
+	</construir>
+
+</projeto>
